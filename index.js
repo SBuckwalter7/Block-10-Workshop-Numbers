@@ -11,6 +11,7 @@ class Numbers {
   }
   count() {
     //return the count of numbers in data
+    //use this.data for all these
     return this.data.length
   }
 
@@ -36,6 +37,7 @@ class Numbers {
 
     //I understand how reduce adds the numbers, and that accumilator goes there,
     //BUt I had to look for forever to find the code "curr" and I don't understand that piece
+    //ok so now i get that "curr" can be anything as long as it matches :)
     return this.data.reduce((accumumilator, curr )=>accumumilator+curr,0)
 
   }
